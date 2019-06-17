@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFEA00">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the First Digit.."
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter the Second Digit.."
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:text="Result" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/b1"
+            android:backgroundTint="#BCE91E63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Addition" />
+        <Button
+            android:id="@+id/b2"
+            android:backgroundTint="#00BCD4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtraction"/>
+
+        <Button
+            android:id="@+id/b3"
+            android:backgroundTint="#7CCE1E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplication"/>
+        <Button
+            android:id="@+id/b4"
+            android:backgroundTint="#D500F9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Division"/>
+    </LinearLayout>
+</LinearLayout>
